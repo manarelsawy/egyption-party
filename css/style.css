@@ -1,0 +1,99 @@
+/* * Header */
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+.home{
+    height: 100vh;
+    background-image: linear-gradient(rgba(214,46,51,0.6) ,rgba(214,46,51,0.6) ), url(../img/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* * Sidebar */
+
+.open{
+    background-color: #000;
+    position: fixed;
+    z-index: 999;
+    height: 100vh;
+    width: 270px;
+    top: 0;
+    left: -270px;
+    transition: all 0.3s;
+}
+
+.open .side-menu .hclose{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.open .side-menu li {
+    padding: 15px 0;
+}
+
+.open .openIcon {
+    position: absolute;
+    right: -110px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* * Slider */
+
+.slider h3 {
+    background-color: #e68285;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.slider > div{
+    background-color: #cccccc;
+    display: none;
+    color: #000;
+}
+
+/* * Counter */
+
+.counter{
+    background-image: linear-gradient(rgba(214,46,51,0.6) ,rgba(214,46,51,0.6) ), url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-info{
+    padding: 50px;
+    /* border: 1px solid #FFF; */
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* * Contact Us  */
+
+.contact ul{
+    text-align: center;
+}
+.contact ul li {
+    
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+
+}
+
+.contact ul li:hover{
+    color: #fff;
+    background-color:#D62E33;
+}
